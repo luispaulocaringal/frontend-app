@@ -7,7 +7,7 @@ export default function Login() {
         <Form className="rounded-lg shadow-lg border-1 border-gray-200 w-xl h-100" method="POST">
           <div className="m-8">
             <div>
-              <h1>IP Management System</h1>
+              <h1>IP Manager</h1>
             </div>
             <br/>
             <div className="grid grid-rows-4 grid-flow-col gap-5">
@@ -26,7 +26,7 @@ export default function Login() {
                 </label>
               </div>
               <div>
-                <button className="rounded bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4" type="submit">Login</button>
+                <button className="rounded bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-4" type="submit">Login</button>
               </div>
               <div>
                 <NavLink className="text-xs text-blue-500" to="/register">Forgot Password</NavLink><br/>
